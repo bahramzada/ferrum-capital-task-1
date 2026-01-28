@@ -22,9 +22,11 @@ Dataset altı əsas emosiyanı əhatə edir:
 ### 📂 Layihə strukturu
 
 ferrum-capital-task-1/  
-├── data/        # Orijinal və preprocessing-dən keçmiş dataset-lər  
-├── models/      # Saxlanılmış model və TF-IDF vektorizatoru (.pkl)  
-├── notebooks/   # EDA, Preprocessing, Modeling və Inference notebook-ları  
+├── data/                # Orijinal və preprocessing-dən keçmiş dataset-lər  
+├── models/              # Saxlanılmış model və TF-IDF vektorizatoru (.pkl)  
+├── notebooks/           # EDA, Preprocessing, Modeling və Inference notebook-ları 
+├── app.py/              # Gradio ilə yazılmış kiçik demo
+├── requirements.txt   
 └── README.md  
 
 ---
@@ -106,11 +108,13 @@ The dataset includes the following emotions:
 
 ### 📂 Project Structure
 
-ferrum-capital-task-1/  
-├── data/        # Raw and preprocessed datasets  
-├── models/      # Saved model and TF-IDF vectorizer (.pkl)  
-├── notebooks/   # EDA, Preprocessing, Modeling, and Inference notebooks  
-└── README.md  
+ferrum-capital-task-1/
+├── data/                # Raw and preprocessed datasets
+├── models/              # Saved model and TF-IDF vectorizer (.pkl)
+├── notebooks/           # EDA, Preprocessing, Modeling, and Inference notebooks
+├── app.py               # Simple demo built with Gradio
+├── requirements.txt     # Project dependencies
+└── README.md
 
 ---
 
